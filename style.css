@@ -72,8 +72,10 @@ main{
 
 iframe{
   width: 100%;
-min-height: 420px;
-border: none;}
+min-height: 400px;
+border: none;
+border: 1px solid red;
+}
 
 
 
@@ -81,6 +83,7 @@ border: none;}
 .block{
   padding: 1em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -10px;
 }
 
 .block h1{
@@ -90,4 +93,20 @@ border: none;}
 
 .block h1 span{
 font-size: 3.5rem;
+}
+
+.para{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.para p{
+    width: 95%;
+    padding: .5em;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.para p span{
+color: red;
 }
