@@ -69,6 +69,10 @@ nav .navbar a {
 nav .navbar a:hover {
     border-bottom: 3px solid white;
 }
+
+.active{
+    border-bottom: 3px solid white !important;
+}
 nav .navbar svg {
     fill: white;
     padding: 1em;
