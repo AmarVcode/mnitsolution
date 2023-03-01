@@ -12,6 +12,7 @@ nav {
     width: fit-content;
     position: fixed;
     top: 0;
+    z-index: 1000;
 }
 nav #menu {
     padding: 0.5em;
@@ -72,12 +73,14 @@ main{
 
 iframe{
   width: 100%;
-min-height: 400px;
 border: none;
-border: 1px solid red;
 }
 
-
+@media (min-width:1000px) {
+    iframe{
+        height: 60vh;
+    }
+}
 
 
 .block{
@@ -95,18 +98,94 @@ border: 1px solid red;
 font-size: 3.5rem;
 }
 
-.para{
-    display: grid;
-    grid-template-columns: auto auto;
-}
+
 
 .para p{
     width: 95%;
     padding: .5em;
     margin: auto;
-    font-size: 1rem;
 }
 
 .para p span{
 color: red;
 }
+
+
+swiper-container{
+    max-width: 500px;
+    overflow: visible !important;
+    padding: 1em;
+}
+
+.cards{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    text-align: center;
+    padding: .5em;
+}
+.cards h2{
+    color: red;
+    text-decoration: underline;
+    padding: 1em;
+}
+.cards img{
+    width: 100%;
+}
+
+.cards a{
+    display: block;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    margin: 1em !important;
+    padding: 1em;
+    font-size: 1rem;
+    font-weight: 600;
+    animation: btn 300ms alternate-reverse infinite;
+}
+
+@keyframes btn {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform:scale(.9);
+    }
+}
+
+.mini svg{
+  width: 2rem ;
+  margin: 1em;
+  fill: white;
+}
+
+mini p{
+    padding: 1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1em;
+}
+
+.topfooter{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.4%;
+}
+.topfooter h2{
+margin: 1em;
+color: grey;
+
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.

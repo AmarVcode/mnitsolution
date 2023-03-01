@@ -1,52 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MNIT Solution </title>
+
+    <meta name="description"
+        content="we are more than just a software and hardware shop. We are a team of dedicated professionals who are passionate about technology and committed to helping you achieve your goals. So the next time you need a new device or just some advice, come visit us and discover why we are more than just a shop – we are your technology partner. ">
+
+    <meta name="keywords"
+        content="best hardware shop, electronic shop, laptop, deskstop, cable, laptop accessories, deskstop accessories">
+    <meta name="author" content="Amarvcode">
+    <title>MNIT Solution</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+
     <nav>
         <div id="menu" onclick="menu()">
-            <svg width="1.5rem" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            <svg width="1.5rem" fill="white" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
         </div>
         <div class="navbar" id="navbar">
             <a href="" id="logo" class="logo"><img src="images/logo.png" alt=""></a>
-            <a href=""><span><svg width="1.5rem" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></span><span>Home</span></a>
-            <a href=""><span><svg width="1.5rem" fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></span><span>Contact me</span></a>
+            <a href=""><span><svg width="1.5rem" fill="white" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 576 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z" />
+                    </svg></span><span>Home</span></a>
+            <a href=""><span><svg width="1.5rem" fill="white" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path
+                            d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                    </svg></span><span>Contact me</span></a>
         </div>
     </nav>
     <main>
-        <iframe  src="./slider.html" frameborder="0" height="400px"></iframe>
-          
+        <iframe src="./slider.html" frameborder="0"></iframe>
 
-<div class="block">
-    <h1>
-        <span>W</span>ho we are
-    </h1>
-    <div class="para"><p>We are honored to speak to you today about who we are as a <span>software</span> and <span>hardware</span> shop. As a <span>team</span>, we are dedicated to providing you with the latest and greatest technology to meet your needs.</p>
-<p>
-    We believe that <span>technology</span> should be accessible to everyone, and that's why we strive to provide <span>affordable</span> prices and exceptional customer service. Whether you're a <span>business owner</span> or a <span>student</span>, we have the <span>products</span> and <span>expertise</span> to help you achieve your <span>goals.</span>
-</p>
-<p>
-    At our shop, we offer a wide variety of software and hardware <span>options</span>. From <span>desktops</span> and <span>laptops</span> to <span>printers</span> and accessories, we have everything you need to stay connected and productive. We understand that technology can be overwhelming, and that's why our knowledgeable staff is always here to help answer your questions and provide guidance.
-</p>
-<p>
-    As a company, we value innovation and strive to stay ahead of the curve when it comes to the latest technology trends. We are constantly updating our inventory and adding new products to ensure that you have access to the most advanced technology available.
-</p>
 
-<p>
-    But our commitment to you doesn't stop at selling you the latest gadgets. We also offer a range of services to help you get the most out of your technology. From repairs and upgrades to installation and setup, we are here to help you every step of the way.
-</p>
+        <div class="block">
+            <h1>
+                <span>W</span>ho we are
+            </h1>
+            <div class="para">
+                <p>
+                    We believe that <span>technology</span> should be accessible to everyone, and that's why we strive
+                    to provide <span>affordable</span> prices and exceptional customer service. Whether you're a
+                    <span>business owner</span> or a <span>student</span>, we have the <span>products</span> and
+                    <span>expertise</span> to help you achieve your <span>goals.</span>
+                </p>
+                <p>
+                    At our shop, we offer a wide variety of software and hardware <span>options</span>. From
+                    <span>desktops</span> and <span>laptops</span> to <span>printers</span> and accessories, we have
+                    everything you need to stay connected and productive. We understand that technology can be
+                    overwhelming, and that's why our knowledgeable staff is always here to help answer your questions
+                    and <span>provide guidance</span>.
+                </p>
 
+
+                <p>
+                    In <span>short</span>, we are more than just a software and hardware shop. We are a team of
+                    dedicated <span>professionals</span> who are <span>passionate</span> about technology and committed
+                    to helping you <span>achieve your goals</span>. So the next time you need a new device or just some
+                    advice, come visit us and <span>discover</span> why we are more than just a shop – we are your
+                    <span>technology partner</span>.
+                </p>
+            </div>
+        </div>
+
+        <div class="block">
+            <h1>
+                <span>W</span>hat we do
+            </h1>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        <swiper-container>
+            <swiper-slide>
+                <div class="cards">
+                    <img src="./images/w1.jpg" alt=""></swiper-slide>
+                    <h2>
+                        Onsite and Remote IT Support
+                    </h2>
+                    <p>
+                        Having computer issues? Need help connecting that new printer? We provide personal and business support services either remotely or onsite.
+                    </p>
+                    <a href="contactus.html">Contact Now</a>
+                </div>
+        </swiper-slide>
+            <swiper-slide>
+                <div class="cards">
+                    <img src="./images/w2.jpg" alt=""></swiper-slide>
+                    <h2>
+                        Web Development
+                    </h2>
+                    <p>
+                        Specialising in Drupal and Wordpress, we are able to take the guesswork out of building, managing and maintaining your website.
+                    </p>
+                    <a href="contactus.html">Contact Now</a>
+                    
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="cards">
+                    <img src="./images/w3.jpg" alt=""></swiper-slide>
+                    <h2>
+                        App Development
+                    </h2>
+                    <p>
+                        Whether it is a game, tool or customer facing interface, we have the knowledge to take your ideas and foster real benefit for your customers and/or users.
+                    </p>
+                    <a href="contactus.html">Contact Now</a>
+                    
+                </div>
+            </swiper-slide>
+        </swiper-container>
+
+
+
+
+
+
+
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d808408.1320254958!2d144.992275!3d-37.676367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad649143b86b0e1%3A0x332b96edcaa73274!2sMNIT%20Solutions!5e0!3m2!1sen!2sau!4v1677605927143!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+        <footer>
+            <div class="topfooter">
+<div>
+    <h2>
+        About Us
+    </h2>
 <p>
-    In short, we are more than just a software and hardware shop. We are a team of dedicated professionals who are passionate about technology and committed to helping you achieve your goals. So the next time you need a new device or just some advice, come visit us and discover why we are more than just a shop – we are your technology partner.
+    we are more than just a software and hardware shop. We are a team of dedicated professionals who are passionate about technology and committed to helping you achieve your goals.
 </p>
-    </div>
 </div>
+<div>
+<h2>
+    Contact Us
+</h2>
+<p>
+    Phone no :  <a href="tel:0423735125">0423735125</a>
+</p>
+<p>
+    Email Us : <a href="mainto:info@mnitsolutions.com.au">info@mnitsolutions.com.au</a>
+
+</p>
+</div>
+<div>
+<h2>
+    Follow Us
+</h2>
+<div class="flex">
+
+<div class="mini"><a href="#insta"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+</div>
+<div class="mini"><a href="#facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></a></div>
+<div class="mini"><a href="#twiter"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></a></div>
+</div>
+
+</div>
+
+            </div>
+            <div class="bottomfooter">
+               <center>
+
+                <p style="padding: 1em;"> &copy; 2023 MNIT Solution. All Rights Reserved.</p>
+               </center>
+            </div>
+        </footer>
+          
 
     </main>
 
@@ -54,4 +189,5 @@
 
     <script src="./main.js"></script>
 </body>
+
 </html>
