@@ -5,6 +5,10 @@
     transition: 500ms;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 
 
 nav {
@@ -78,7 +82,7 @@ nav .navbar svg {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: rgba(25, 25, 112, 0.589);
-    color: white;
+    color: midnightblue;
 }
 
 .bg img{
@@ -139,7 +143,8 @@ color: red;
 
 
 swiper-container{
-    max-width: 800px;
+    margin-left: -10px;
+    max-width: 300px;
     overflow: visible !important;
 }
 
@@ -149,20 +154,24 @@ swiper-container{
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: red !important;
+    color: midnightblue!important;
     margin: 1em !important;
     text-decoration: none;
     margin: .5em;
     width: 100%;
     padding: 1em;
+    border: 2px solid midnightblue;
+    border-radius: 10px;
 }
 
 .cards img{
     width: 100%;
+    border-radius: 10px;
 }
+
 swiper-slide{
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.34%;
+    grid-template-columns: 100%;
     margin: .5em;
 }
 .cards:active{
@@ -170,7 +179,7 @@ swiper-slide{
 }
 
 .cards h2{
-    color: red;
+    color: midnightblue;
     font-size: 1rem;
 }
 .cards img{
@@ -224,6 +233,20 @@ footer a{
     display: flex;
 }
 
+
+.flex p{
+    font-size: 1.5rem !important;
+}
+
+.flex svg{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid white;
+    box-sizing: content-box;
+    padding: .5em;
+    border-radius: 50%;
+}
+
 .star svg{
 width: 1.4rem;
 fill: orange;
@@ -262,52 +285,69 @@ background-color: rgba(0, 0, 0, 0.171);
 .form{
     width: 100%;
     padding: 1em;
-}
-
-.form form{
-    border: 1px solid midnightblue;
-    background-color: midnightblue;
-    padding: 1.5em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 1em;
-    border-radius: 5px;
-    max-width: 400px;
-    margin: auto;
-}
-
-.form form label{
-    color: white;
-    width: 100%;
-    display: flex;
-}
-
-.form form input{
-    width: 100%;
-    display: flex;
-    font-size: 1rem;
-    padding: .4em;
-    border-radius: 10px;
-    border: none;
-}
-
-.form form textarea{
-width: 100%;
-padding:.4em;
-margin-top: 1em;
-margin-bottom: 1em;
-
+    min-height: 100vh;
 }
 
 
-.form form input[type="submit"]{
-background-color: red;
-border: none;
-color: white;
-cursor: pointer;
-}
 
 .block-bg{
-    color: orange;
     min-height: 100vh;
     width: 100%;
+}
+
+.block-bg p{
+color: midnightblue;
+font-size: 1.1rem;
+max-width: 800px;
+margin: auto;
+padding: .5em;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.block-bg p span{
+font-weight: 600;
+text-transform: capitalize;
+}
+@media (max-width:800px) {
+    .topfooter{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+}
+
+
+.flex-info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+}
+
+.flex-info>div{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 1rem;
+    border: 1px solid midnightblue;
+}
+
+.flex-info>div img{
+width: 100%;
+}
+
+.flex-info h2{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1em;
+    color: red;
+}
+
+.flex-info p{
+font-size: .9rem;
+padding: 1em;
+text-align: left;
+color: black;
 }
