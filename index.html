@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNIT Solution</title>
+    <link rel="stylesheet" href="./styles/main.css">
+     <!-- include Swiper CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+     <!-- include Swiper JavaScript -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   </head>
+</head>
+<body>
+    <header>
+        <div class="logo">MNIT</div>
+        <div class="navbar" id="navbar">
+            <a href="#">who we are</a>
+            <a href="#">about</a>
+            <a href="#">contact us</a>
+        </div>
+        <div id="menu" onclick="show()"><svg height="2rem"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></div>
+    </header>
+
+
+
+    <section class="hero">
+        <script>
+    var mySwiper = new Swiper('.swiper-container', {
+    loop: true,
+  });
+        </script>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" id="slide1">
+              </div>
+              <div class="swiper-slide" id="slide2">
+
+              </div>
+              <div class="swiper-slide" id="slide3">
+
+              </div>
+            </div>
+          </div>
+          
+    </section>
+
+
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
