@@ -19,7 +19,6 @@ function show(){
 
 
 
-var container = document.querySelector(".swiper-container");
 
 
 
@@ -29,6 +28,12 @@ var mySwiper = new Swiper('.swiper-container', {
     autoplay: {
         delay: 3000,
       },
-     
-    
+  });
+
+  var mySwiper2 = new Swiper('.swiper-container2', {
+    loop: true,
+    slidesPerView: 1,
+    autoplay: {
+        delay: 3000,
+      },
   });

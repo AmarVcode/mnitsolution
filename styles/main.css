@@ -213,6 +213,9 @@ text-align: center;
 }
 
 @media screen and (max-width:700px){
+    footer{
+        grid-template-columns: 100% !important;
+    }
     .main_head{
         font-size: 2rem;
     }
@@ -227,6 +230,14 @@ text-align: center;
         font-weight: 400;
         font-size: .9rem;
     }
+.mygrid{
+grid-template-columns: 100% !important;
+}
+.reverse{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex-direction: column-reverse;
+}
 }
 
 .who{
@@ -254,13 +265,93 @@ margin-bottom: 2rem;
     width: 100%;
 }
 
+.para{
+    padding: 1em;
+}
+.para p{ 
+font-size: 1rem;
+line-height: 1.5;
+}
 
+.review{
+    border: 2px solid rgb(0, 132, 214);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1em;
+    cursor: pointer;
+    transform: scale(.9);
+}
+.review svg{
+    width: 5rem;
+    fill: rgb(0, 132, 214);
+}
 
+.review p{
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.review h5{
+    padding: 1em;
+    letter-spacing: 4px;
+}
+
+.contact{
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
 
 
 
 footer{
-    background-color: black;
 width: 100%;
 padding: 40px;
+color: white;
+display: grid;
+grid-template-columns: 33.33% 33.34% 33.33%;
+background-image: url("../assets/images/image.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+footer >div{
+    padding: 1em;
+}
+footer a {
+display: block;
+width: 100%;
+padding: .4em;
+text-decoration: none;
+color: white;
+text-align: center;
+}
+
+footer h3{
+    padding: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+footer p{
+    line-height: 1.5;
+}
+
+footer svg{
+    width: 2.5rem;
+    fill: white;
+}
+
+.flex-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
 }
