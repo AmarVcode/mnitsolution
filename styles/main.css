@@ -162,6 +162,7 @@ line-height: 1.5;
     border-bottom: 2px solid rgb(0, 132, 214);
     margin: auto;
     padding: .5rem 3rem;
+    margin-bottom: 2rem;
 }
 
 .flex_cards{
@@ -239,10 +240,19 @@ background-color: black;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-bottom: 2rem;
 }
 
 
-
+.mygrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+}
+.mygrid img{
+    width: 100%;
+}
 
 
 
