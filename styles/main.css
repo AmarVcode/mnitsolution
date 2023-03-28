@@ -138,6 +138,7 @@ line-height: 1.5;
     color: black;
     padding: 1em 3em;
     font-size: 1rem;
+    border: none;
 }
 .mainbtn:hover{
     color: white;
@@ -168,20 +169,26 @@ line-height: 1.5;
 .flex_cards{
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content: space-around;
 align-items: center;
 text-align: center;
 }
 
 .flex_cards >div{
-    width: 300px;
+    width: 150px;
     padding: 2rem;
     cursor: pointer;
 }
 
+.flex_cards img{
+    width: 100%;
+}
+
 .flex_cards h5{
+    display: block;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: .9rem;
+    white-space: nowrap;
 }
 
 .subbtn{
@@ -193,6 +200,7 @@ text-align: center;
     font-size: 1rem;
     opacity: 1;
     width: fit-content;
+    border:none;
 }
 
 .subbtn:hover{
@@ -226,8 +234,6 @@ text-align: center;
     }
 
     .flex_cards >div{
-        width: 150px;
-        padding: .5rem;
         cursor: pointer;
     }
     
@@ -427,4 +433,48 @@ footer svg{
 
 footer p{
     text-align: center;
+}
+
+
+
+
+#contactbg{
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/images/contactbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+iframe{
+    width: 100%;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 500px;
+    margin: auto;
+    transform: scale(.98);
+    padding: 2em;
+    background-color: rgb(0, 132, 214,0.2);
+    border-radius: 10px;
+    margin-top: -70vh;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
+}
+form input{
+    padding: 1em;
+    font-size: 1rem;
+    border: none;
+    margin-block: 10px;
+    border-radius: 5px;
+}
+
+form textarea{
+    padding: 1em;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-block: 10px;
 }
