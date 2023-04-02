@@ -121,7 +121,7 @@ transform: scale(1,1);
     color: white;
     align-items: flex-start;
     max-width: 600px;
-    margin: 1em;
+    margin-left: 1rem;
 }
 
 .content h1{
@@ -464,6 +464,7 @@ form textarea{
     max-width: 800px;
     border-radius: 10px !important;
     overflow: hidden;
+    transform: scale(.95);
 }
 
 
@@ -503,4 +504,21 @@ grid-template-columns: 100%;
 
 .content_box a{
     margin: 10px !important;
+}
+
+
+
+
+#servicebg{
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/images/service.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.para{
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
