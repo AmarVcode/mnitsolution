@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Amar Yamuna Vishwakarma">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MNIT Solution</title>
   <link rel="stylesheet" href="../styles/main.css">
@@ -15,7 +16,7 @@
 </head>
 </head>
 
-<body>
+<body  onload="universe()">
   <header>
     <div class="logo">MNIT</div>
     <div class="navbar" id="navbar">
@@ -45,9 +46,9 @@
 
 
 <section class="containermain my_grid">
-<form action="#">
-    <input type="text" placeholder="Type Your Full Name" name="fname">
-    <input type="tel" name="phone" placeholder="Type Your Phone Number">
+<form action="../php/contact.php">
+    <input type="text" placeholder="Type Your Full Name" name="name">
+    <input type="tel" name="email" placeholder="Type Your Phone Number">
     <textarea placeholder="Type Your Message Here ..." name="message" cols="30" rows="10" ></textarea>
     <button class="subbtn">Send <span>&#8594;</span></button>
 </form>
