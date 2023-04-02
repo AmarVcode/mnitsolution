@@ -522,3 +522,60 @@ grid-template-columns: 100%;
     font-size: 1.2rem;
     line-height: 1.5;
 }
+
+.card-box{
+    box-shadow: 0px 0px 10px black;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.card-box img{
+    width: 100%;
+    filter: brightness(.8);
+}
+
+.card-box:hover img{
+    filter: brightness(1);
+}
+
+.service_flex{
+    display: flex;
+    padding: 1rem;
+    margin-top: -150px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-box h3{
+    padding: 1rem;
+    letter-spacing: 3px;
+}
+
+.card-box p{
+    padding-inline: 1em;
+    line-height: 1.5;
+}
+
+.list{
+    display: flex;
+    width: 100%;
+    padding: .3em .2em;
+    align-items: center;
+}
+
+.list svg{
+fill: green;
+width: 1.2rem;
+margin-inline: 1rem;
+
+}
+
+.boxbtn{
+    display: block;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: red;
+}
