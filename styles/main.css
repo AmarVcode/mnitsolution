@@ -64,17 +64,21 @@ header{
 .swiper-container {
     height: 100%;
 }
+.spacing{
+    padding: 40px;
+}
 
 .swiper-slide{
     height: 100%;
     background-size: cover;
     background-position: center;
-  }
+}
 
-  .hero{
+.hero{
     height: 100vh;
     width: 100%;
     margin-bottom: 50px;
+    overflow-x: hidden !important;
   }
 
   #slide1{
