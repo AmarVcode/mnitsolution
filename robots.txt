@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /assets/
+Disallow: /scripts/
+Disallow: /styles/
+
+Allow: /$
+Allow: /index.html
+Allow: /about.html
+Allow: /service.html
+Allow: /contact.html
