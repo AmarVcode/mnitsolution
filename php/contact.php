@@ -5,8 +5,8 @@ $name = $_POST["name"];
   $email = $_POST["email"];
   $message = $_POST["message"];
 
-  $to = "sales@mnitsolutions.in";
-  $subject = "New contact form submission";
+  $to = "vishwakarmacomputerofficial@gmail.com";
+  $subject = "New contact form submission from Websie";
   $body = "Name: $name\nEmail: $email\nMessage: $message";
 
   if (mail($to, $subject, $body)) {
