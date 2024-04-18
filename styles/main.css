@@ -229,6 +229,15 @@ text-align: center;
     align-items: center;
 }
 
+.last_line{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
 @media screen and (max-width:700px){
     footer{
         grid-template-columns: 100% !important;
